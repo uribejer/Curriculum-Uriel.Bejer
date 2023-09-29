@@ -1,0 +1,105 @@
+html{
+    background-color: white;
+    font-family: 'Koulen', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    font-family: 'Monomaniac One', sans-serif;
+}
+
+nav{
+    padding-top: 30px;
+    justify-content: right;
+    display: flex;
+    gap: 25px;
+    background-color: black;
+}
+
+body nav div li{
+    font-size: x-large;
+    border: solid 5px;
+    border-color: white;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    display: inline;
+}
+.texto-principal{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: 'Monomaniac One', sans-serif;
+}
+
+input{
+    display: none;
+}
+
+a{
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+}
+
+footer{
+    text-align: center;
+    font-size: 50px;
+    background-color: black;
+    padding-top: 0.001cm;
+    padding-bottom: 0.001cm;    
+}
+
+.footer-p{
+    background-color: white;
+    border: solid 0;
+    border-radius: 15px;
+    margin-right: 40%;
+    margin-left: 40%;
+}
+
+.div-contacto{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.p-contacto{
+    margin-top: 10px;
+}
+
+.img-email{
+    width: 50px;
+    height: 50px;
+}
+
+.logo img{
+    max-width: 100px; 
+    margin-right: 800px;
+}
+
+.caja{
+    width: 900px;
+    background-color: #480E59;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 70px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.texto{
+    font-size: xx-large;
+    display: flex;
+    text-align: center;
+    margin-left: 40px;
+}
