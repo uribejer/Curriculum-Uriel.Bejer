@@ -1,0 +1,177 @@
+html{
+    background-color: white;
+    font-family: 'Koulen', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    gap: 100px;
+    font-family: 'Monomaniac One', sans-serif;
+}
+
+main div div{
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+}
+
+main div li{
+    font-size: x-large;
+    color: white;
+}
+
+main div li b{
+    font-size: xx-large;
+}
+
+nav{
+    justify-content: space-between;
+    display: flex;
+    gap: 25px;
+    background-color: black;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px; 
+}
+
+
+body nav div li{
+    font-size: x-large;
+    border: solid 5px;
+    border-color: white;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    display: inline;
+}
+
+.texto-principal{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: 'Monomaniac One', sans-serif;
+}
+
+input{
+    display: none;
+}
+
+a{
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+}
+
+footer{
+    text-align: center;
+    font-size: 50px;
+    background-color: black;
+    padding-top: 0.001cm;
+    padding-bottom: 0.001cm;
+}
+
+.footer-p{
+    color: white;
+    border: solid 0;
+    border-radius: 15px;
+    margin-right: 40%;
+    margin-left: 40%;
+    font-family: 'Koulen', sans-serif;
+
+}
+
+.div-contacto{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    font-family: 'Koulen', sans-serif;
+}
+
+.p-contacto{
+    margin-top: 10px;
+}
+
+.img-email{
+    width: 50px;
+    height: 50px;
+}
+
+.caja{
+    width: 900px;
+    background-color: #480E59;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 70px;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.img-uriel{
+    border: solid 5px black;
+    border-radius: 5% ;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-right: 5%;
+    max-width: 400px;
+}
+
+.logo img{
+    max-width: 30%; 
+}
+
+.texto-datos{
+    align-items: center;
+}
+
+.hover-effect {
+    transition: all 0.3s ease;
+    font-family: 'Koulen', sans-serif;
+}
+
+.hover-effect:hover {
+    transform: scale(1.2);
+}
+
+.mapa{
+    margin-bottom: 3%;
+}
+
+.texto-ubicacion{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: 'Monomaniac One', sans-serif;
+    color: black;
+}
+
+.texto-click{
+    font-size: 50px;
+    font-family: 'Monomaniac One', sans-serif;
+    color: black;
+}
+
+.img-whatsapp{
+    width: 70%;
+    cursor: pointer;
+}
+
+.posicion-mapa-whatsapp{
+    display: flex;
+    justify-content: center;
+    margin-left: -20%;
+}
+
+.posicion-whatsapp{
+    margin-left: 30%;
+}
