@@ -1,0 +1,167 @@
+@media all and (max-width: 768px) {
+
+    main{
+        display: flex;
+        flex-direction: column;
+        margin-top: 8%;
+    }
+
+    .logo{
+        max-width: 200%; 
+    }
+
+    .texto-principal{
+        margin-top: 10%;
+    }
+
+    .posicion-nombre{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .tamaño-posicion-presentacion{
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .footer-p{
+        color: rgb(0, 0, 0);
+        padding: 0 3% 0 3%;
+        margin: auto;
+        background-color: rgb(255, 255, 255);
+        width: fit-content;
+        border-radius: 5%;
+    }
+
+    footer{
+        font-size: 30px;
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+    }   
+        
+    .texto-principal{
+        text-align: center;
+    }
+
+    .img-uriel{
+        border: solid 5px black;
+        border-radius: 40px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        max-width: 300px;
+    }
+
+    .caja{
+        width: 75%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 7px;
+    }
+
+    .datos{
+        font-size: 30px;
+        color: white;
+    }
+
+    .datos2{
+        font-size: 20px;
+    }
+
+    .texto{
+        margin-left: 10px;
+    }
+
+    .carousel{
+        width: 100%;
+        height: 1200%;
+    }
+
+    .posicion-mapa-whatsapp{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .mapa{
+        margin-left: 12%;
+    }
+
+    .img-whatsapp{
+        margin-left: 12%;
+    }
+
+    .texto-ubicacion{
+        margin-left: 15%;
+
+    }
+
+    .btn-group{
+        margin-top: 50px;
+        margin-right: 100px;
+        margin-left: 100px;
+    }    
+
+}
+
+@media all and (max-width: 1024px) {
+
+    nav div ul li{
+        max-width: fit-content;
+
+    }
+
+    .logo{
+        max-width: 40%;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .posicion-nombre{
+        text-align: center;
+        margin: 0 0 3% 0;
+    }
+
+    .img-presentacion{
+        margin: 0;
+        width: 100%;
+    }
+
+    .caja{
+        width: 75%;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+
+    .footer-p{
+        color: rgb(0, 0, 0);
+        padding: 0 3% 0 3%;
+        margin: auto;
+        background-color: rgb(255, 255, 255);
+        width: fit-content;
+        border-radius: 5%;
+    }
+
+    footer{
+        font-size: 30px;
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        margin: auto;
+        margin-top: 10%;
+    }
+
+}
+
+@media all and (max-width: 150px) {
+    html{
+        display: none;
+    }
+}
